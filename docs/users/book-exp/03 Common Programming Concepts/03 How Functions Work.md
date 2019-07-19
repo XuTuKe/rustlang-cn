@@ -55,8 +55,8 @@ statement和expression的说明：
 
 statement和expression的关系：
 1. expression可以是statement的一部分
-2. 例如let x = 6; 是statement，但其中 6 是statement
-3. 又如let x = 5+6; 是statement，但其中 5+6 是statement
+2. 例如let x = 6; 是statement，但其中 6 是expression
+3. 又如let x = 5+6; 是statement，但其中 5+6 是expression
 
 举例：
 ```rust
